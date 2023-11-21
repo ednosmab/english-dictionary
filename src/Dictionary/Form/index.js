@@ -13,7 +13,6 @@ export default function Form(props){
         setMySearch(search)
     }
     
-    console.log(mySearch)
     return (
         <>
             <form onSubmit={toSearch}>
