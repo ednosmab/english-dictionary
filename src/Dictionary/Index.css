@@ -1,0 +1,8 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.content-container{
+    width: 63.4rem;
+}

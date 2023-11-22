@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    font-family: 'Inter', sans-serif;;
+}
+
+
+
+header .content-container{
+    display: flex;
+    justify-content: space-between;
+    width: 69rem;
+    margin-top: 4.2rem;
+}
+
+header .content-container img:nth-child(2){
+    width: 2.6rem;
+    align-self: flex-start;
+}
