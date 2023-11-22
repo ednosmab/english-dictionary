@@ -1,10 +1,12 @@
-import Form from "./Form"
-import Search from "./Search"
-export default function Dictionary(){
+import Form from "./Form";
+
+export default function Dictionary() {
     return (
-        <>
-            <h1>Dicionário de Inglês</h1>
-            <Form/>
-        </>
-    )
+        <div className="container">
+            <div className="container-content">
+                <h1>Dicionário de Inglês</h1>
+                <Form />
+            </div>
+        </div>
+    );
 }
