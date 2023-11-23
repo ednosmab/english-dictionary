@@ -7,7 +7,7 @@ export default function Input(props){
 
     return (
         <>
-            <input onChange={toEntered} required={props.mandatory} placeholder={props.placeholder} className='text-field'/>
+            <input onChange={toEntered} required={props.mandatory} placeholder={props.placeholder} className="text-field"/>
         </>
     );
     
