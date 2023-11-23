@@ -22,7 +22,7 @@ export default function Search(props) {
     }, [props.toSearch]);
 
     return (
-        <>
+        <div className="search-container">
             {!(definitionsValue === 404)
                 ? definitionsValue.map((res, index) => {
                       return index === 0 ? (
@@ -36,7 +36,7 @@ export default function Search(props) {
                 definitionsValue.map((res) =>
                     res.meanings.map((r, index) => {
                         return (
-                            <div className="search-container">
+                            <>
                                 <div key={index} className="response-container">
                                     <div className="partOfSpeech-container">
                                         <span className="partOfSpeech">
@@ -65,10 +65,10 @@ export default function Search(props) {
                                       <span className="synonyms-content">{r.synonyms}</span> 
                                     </div>
                                 )}
-                            </div>
+                            </>
                         );
                     })
                 )}
-        </>
+        </div>
     );
 }
