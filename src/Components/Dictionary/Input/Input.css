@@ -1,0 +1,26 @@
+:root {
+    --background-color-input: #f4f4f4;
+    --color-input: #000;
+}
+
+[data-theme="dark"] {
+    --background-color-input: #1F1F1F;
+    --color-input: #fff;
+}
+
+div {
+    position: relative;
+}
+
+.text-field {
+    outline: none;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--color-input);
+    border: none;
+    border-radius: 0.8rem;
+    background-color: var(--background-color-input);
+    transition: background-color 0.5s;
+}

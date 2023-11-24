@@ -24,3 +24,13 @@ header .content-container img:nth-child(2){
     width: 2.6rem;
     align-self: flex-start;
 }
+
+header .theme-container{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+header .dark-mode{
+    margin-top: 1rem;
+    margin-left: 5rem;
+}

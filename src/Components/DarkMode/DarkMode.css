@@ -1,0 +1,23 @@
+.trilho {
+    width: 3.5rem;
+    height: 1.5rem;
+    border-radius: 1.5rem;
+    position: relative;
+    background-color: #747474;
+    cursor: pointer;
+}
+
+.trilho .indicador {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    transform: scale(0.9);
+    position: absolute;
+    left: 0;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+[data-trilho="trilho"] .indicador{
+    left: 1.9rem;
+}
