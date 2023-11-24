@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Vercel
+
+To test the project, go to https://english-dictionary-rho.vercel.app/
+
 ## Available Scripts
 
 In the project directory, you can run:
