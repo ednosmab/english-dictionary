@@ -6,10 +6,11 @@ import moon from "./moon.svg";
 
 function App() {
     return (
-        <div>
+        <div className="">
             <header className="container">
                 <div className="content-container">
                     <img src={dictionary} alt="" />
+                    <h2>English Dictionary</h2>
                     <div className="theme-container">
                         <div className="dark-mode">
                             <DarkMode />

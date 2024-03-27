@@ -1,17 +1,3 @@
-:root {
-    --background-color-input: #f4f4f4;
-    --color-input: #000;
-}
-
-[data-theme="dark"] {
-    --background-color-input: #1F1F1F;
-    --color-input: #fff;
-}
-
-div {
-    position: relative;
-}
-
 .text-field {
     outline: none;
     width: 100%;

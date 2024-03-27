@@ -1,5 +1,4 @@
 import Form from "./Form";
-import './Index.css'
 
 export default function Dictionary() {
     return (

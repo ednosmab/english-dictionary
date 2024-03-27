@@ -1,36 +1,61 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-:root{
+:root {
     font-size: 62.5%;
-    font-family: 'Inter', sans-serif;;
+    font-family: "Inter", sans-serif;
+    --background-color-input: #f4f4f4;
+    --color-input: #242424;
 }
 
+[data-theme="dark"] {
+    --background-color-input: #1f1f1f;
+    --color-input: #fff;
+}
 
+body {
+    transition: background-color 0.5s ease-in-out;
+}
 
-header .content-container{
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    width: 63.4rem;
+}
+
+header .content-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 69rem;
     margin-top: 4.2rem;
 }
 
-header .content-container img:nth-child(2){
+header h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-input);
+}
+
+header .content-container img:nth-child(2) {
     width: 2.6rem;
     align-self: flex-start;
 }
 
-header .theme-container{
+header .theme-container {
     width: 20%;
     display: flex;
     justify-content: space-between;
 }
-header .dark-mode{
+header .dark-mode {
     margin-top: 1rem;
     margin-left: 5rem;
 }

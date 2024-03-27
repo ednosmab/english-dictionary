@@ -5,7 +5,7 @@ import { useState } from "react";
 import Input from "../Input";
 import MyButton from "../MyButton";
 import Search from "../Search";
-import './Form.css'
+import "./Form.css";
 
 export default function Form(props) {
     const [search, setSearch] = useState("");
@@ -21,14 +21,17 @@ export default function Form(props) {
             <form onSubmit={toSearch}>
                 <div className="form-container">
                     <Input
-                        placeholder="Digite aqui a sua pesquisa"
+                        placeholder="Enter the word to be searched"
                         mandatory={true}
                         label="Palavra"
                         myValue={search}
                         toChange={(value) => setSearch(value)}
                     />
                     <MyButton>
-                        <FontAwesomeIcon icon={faMagnifyingGlass} className="font-awesome"/>
+                        <FontAwesomeIcon
+                            icon={faMagnifyingGlass}
+                            className="font-awesome"
+                        />
                     </MyButton>
                 </div>
             </form>
