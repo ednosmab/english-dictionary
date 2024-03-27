@@ -6,7 +6,7 @@ import moon from "./moon.svg";
 
 function App() {
     return (
-        <div className="">
+        <div className="app-container">
             <header className="container">
                 <div className="content-container">
                     <img src={dictionary} alt="" />
